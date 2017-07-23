@@ -5,15 +5,19 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/css/site.css">
+	<link rel="stylesheet" href="/css/style.css">
 	<script src="/js/site.js"></script>
-	<title>My Blog</title>
+	<title>M. Taylor Long</title>
 </head>
 <body>
-	<header>
+	<!-- <header>
 		{% include header.html %}
-	</header>
-	<div class="container">
+	</header> -->
+	<div class="intro">
+		<h1 class="name">M. Taylor Long</h1>
+		<p>My name is Taylor, and I am passionate about the visual communication of complex information, especially where it concerns the relationship between people and the environment. I work as User Interface Designer for eBird at the Cornell Lab of Ornithology.</p>
+	</div>
+	<!-- <div class="container">
 		{% for post in site.posts %}
 			<article>
 				<h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -21,9 +25,9 @@
 				<p>{{ post.content }}</p>
 			</article>
 		{% endfor %}
-	</div>
-	<footer>
+	</div> -->
+	<!-- <footer>
 		{% include footer.html %}
-	</footer>
+	</footer> -->
 </body>
 </html>

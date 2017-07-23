@@ -1,0 +1,23 @@
+---
+# Main stylesheet
+---
+
+@import 'variables';
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+.intro {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-width: 24rem;
+}
